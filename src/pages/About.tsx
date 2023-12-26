@@ -38,17 +38,21 @@ const About = () => {
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
               font-bold text-textPrimary"
             >
-              About <span className="text-secondary"> me</span>
+              About <span className="text-green-500"> Davamen </span>
             </h2>
           </Reveal>
 
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis incidunt quis praesentium voluptates et cupiditate
-              minus rem. Voluptatibus ullam beatae expedita voluptatum error,
-              voluptate deserunt impedit similique fuga recusandae sit.
+            Davamen, at the forefront of innovative electrical and automation solutions, is also a passionate advocate for clean energy in Ghana. We are committed to empowering residential, commercial, and industrial clients with sustainable and efficient energy solutions.
             </p>
+            
+            <a href="https://www.google.com" className="  text-white">
+            
+              read more 
+            
+            </a>
+            
           </Reveal>
 
           <motion.div

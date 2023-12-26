@@ -34,7 +34,7 @@ const Contact = () => {
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
               font-bold text-textPrimary"
             >
-              Got a project in<span className="text-secondary"> mind?</span>
+              Get a free demo <span className="text-secondary"> today</span>
             </h2>
           </Reveal>
 

@@ -23,7 +23,7 @@ export const services: OurServices[] = [
     id: 1,
     category: "residential",
     img: uiUxTwo,
-    title: "House Rewiring and Upgrades",
+    title: "House Wiring",
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ export const services: OurServices[] = [
     id: 9,
     category: "Industrial",
     img: webThree,
-    title: "SCADA Systems (Supervisory Control and Data Acquisition)",
+    title: "SCADA Systems ",
 
   },
   {

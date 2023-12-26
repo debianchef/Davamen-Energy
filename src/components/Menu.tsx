@@ -13,13 +13,13 @@ import { Link } from "react-scroll";
 const Menu = () => {
   return (
     <div
-      className="fixed bottom-0 sm:bottom-12 w-full sm:w-fit left-1/2 -translate-x-1/2 bg-accent
-  rounded-t-xl sm:rounded-full py-3 px-6 flex items-center justify-around sm:justify-center gap-12 z-30"
+      className="fixed bottom-0 sm:bottom-12 w-full sm:w-fit left-1/2 -translate-x-1/2 bg-white
+  rounded-t-xl sm:rounded-lg py-3 px-6 flex items-center justify-around sm:justify-center gap-12 z-30"
     >
       <Link to="home" smooth>
         <Tooltip title="Home" placement="top" arrow>
           <IconButton className="group">
-            <HomeIcon className="text-white group-hover:text-secondary" />
+            <HomeIcon className="text-black group-hover:text-green-500" />
           </IconButton>
         </Tooltip>
       </Link>
@@ -27,7 +27,7 @@ const Menu = () => {
       <Link to="about" smooth>
         <Tooltip title="About" placement="top" arrow>
           <IconButton className="group">
-            <PersonIcon className="text-white group-hover:text-secondary" />
+            <PersonIcon className="text-black group-hover:text-green-500" />
           </IconButton>
         </Tooltip>
       </Link>
@@ -35,7 +35,7 @@ const Menu = () => {
       <Link to="projects" smooth>
         <Tooltip title="Projects" placement="top" arrow>
           <IconButton className="group">
-            <AppsIcon className="text-white group-hover:text-secondary" />
+            <AppsIcon className="text-black group-hover:text-green-500" />
           </IconButton>
         </Tooltip>
       </Link>
@@ -43,7 +43,7 @@ const Menu = () => {
       <Link to="contact" smooth>
         <Tooltip title="Contact" placement="top" arrow>
           <IconButton className="group">
-            <MailIcon className="text-white group-hover:text-secondary" />
+            <MailIcon className="text-black group-hover:text-green-500" />
           </IconButton>
         </Tooltip>
       </Link>

@@ -48,7 +48,7 @@ const OurServices = () => {
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
               font-bold text-textPrimary"
             >
-              Our  <span className="text-secondary"> Services</span>
+              Our  <span className="text-green-500"> Services</span>
             </h2>
           </Reveal>
 
