@@ -1,5 +1,5 @@
 // views
-import { About, Contact, Hero, Projects } from "./views";
+import { About, Contact, Hero, OurServices } from "./pages";
 
 // components
 import { Menu } from "./components";
@@ -9,7 +9,7 @@ function App() {
     <>
       <Hero />
       <About />
-      <Projects />
+      <OurServices />
       <Contact />
       <Menu />
     </>

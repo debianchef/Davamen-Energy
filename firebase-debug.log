@@ -1,0 +1,96 @@
+[debug] [2023-12-25T18:13:10.732Z] ----------------------------------------------------------------------
+[debug] [2023-12-25T18:13:10.735Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pappy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-25T18:13:10.736Z] CLI Version:   13.0.2
+[debug] [2023-12-25T18:13:10.736Z] Platform:      win32
+[debug] [2023-12-25T18:13:10.736Z] Node Version:  v18.18.0
+[debug] [2023-12-25T18:13:10.738Z] Time:          Mon Dec 25 2023 13:13:10 GMT-0500 (Eastern Standard Time)
+[debug] [2023-12-25T18:13:10.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-25T18:13:10.753Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-12-25T18:13:10.832Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-25T18:13:10.833Z] > authorizing via signed-in user (airyktawiah@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pappy\Desktop\Organization Overview\Taricom\Projects-Documentions-And-Source-Files\Davamen Energy\source
+
+[debug] [2023-12-25T18:13:11.936Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-12-25T18:13:11.938Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-25T18:13:52.794Z] > refreshing access token with scopes: []
+[debug] [2023-12-25T18:13:52.796Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-25T18:13:52.796Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-25T18:13:53.532Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-12-25T18:13:53.532Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-25T18:13:53.554Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-25T18:13:54.402Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-25T18:13:54.402Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project davamen-general-construction (Davamen Energy) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-25T18:14:07.966Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/davamen-general-construction [none]
+[debug] [2023-12-25T18:14:08.639Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/davamen-general-construction 403
+[debug] [2023-12-25T18:14:08.639Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/davamen-general-construction {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-12-25T18:14:08.640Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-12-25T18:14:08.641Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\pappy\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\pappy\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project davamen-general-construction. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-12-25T18:32:35.271Z] ----------------------------------------------------------------------
+[debug] [2023-12-25T18:32:35.274Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pappy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-25T18:32:35.275Z] CLI Version:   13.0.2
+[debug] [2023-12-25T18:32:35.275Z] Platform:      win32
+[debug] [2023-12-25T18:32:35.275Z] Node Version:  v18.18.0
+[debug] [2023-12-25T18:32:35.277Z] Time:          Mon Dec 25 2023 13:32:35 GMT-0500 (Eastern Standard Time)
+[debug] [2023-12-25T18:32:35.277Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-25T18:32:35.298Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-25T18:32:35.299Z] > authorizing via signed-in user (airyktawiah@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pappy\Desktop\Organization Overview\Taricom\Projects-Documentions-And-Source-Files\Davamen Energy\source
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-25T18:33:02.590Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-12-25T18:33:03.718Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-12-25T18:33:03.718Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project crypto-betting-app (Davamen Energy) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-25T18:33:15.791Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/crypto-betting-app [none]
+[debug] [2023-12-25T18:33:16.469Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/crypto-betting-app 403
+[debug] [2023-12-25T18:33:16.469Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/crypto-betting-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-12-25T18:33:16.470Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-12-25T18:33:16.471Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\pappy\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\pappy\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project crypto-betting-app. Please make sure the project exists and your account has permission to access it.
